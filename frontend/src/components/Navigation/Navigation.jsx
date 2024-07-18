@@ -23,7 +23,7 @@ function Navigation() {
     <nav className="main-nav">
       <Link className="main-nav-logo" to="/">
         <img
-          class="main-nav-logo-image"
+          className="main-nav-logo-image"
           src="./argentBankLogo.webp"
           alt="Argent Bank Logo"
         />
