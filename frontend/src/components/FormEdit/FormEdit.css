@@ -1,0 +1,47 @@
+.form-edit-content {
+  width: 100%;
+  max-width: 250px;
+  margin-top: 20px;
+}
+
+.input-edit-wrapper {
+  display: flex;
+  text-align: left;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  align-items: center;
+}
+
+.input-edit-wrapper label {
+  font-weight: bold;
+  white-space: nowrap;
+  margin-right: 5px;
+}
+
+.input-edit-wrapper input {
+  padding: 5px;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.blocked {
+  background-color: rgb(185, 181, 181);
+  cursor: not-allowed;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.form-edit-button {
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+  border: 0;
+}
