@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const PrivateRoute = ({ children }) => {
   const token = useSelector((state) => state.auth.token);
-  return token ? children : <Navigate to="/sign-in" />;
+  return token ? children : <Navigate to="/login" />;
 };
 
 PrivateRoute.propTypes = {

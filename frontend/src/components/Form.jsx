@@ -21,7 +21,7 @@ function Form() {
 
   useEffect(() => {
     if (auth.token && !auth.error) {
-      navigate("/User");
+      navigate("/profile");
       dispatch(profile());
     }
   }, [auth, dispatch, navigate]);

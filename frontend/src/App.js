@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Base from "./components/Base";
 import Home from "./pages/home";
-import SignIn from "./pages/signIn";
-import User from "./pages/user";
+import Login from "./pages/login";
+import Profile from "./pages/profile";
 import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
@@ -12,12 +12,12 @@ function App() {
       <Routes>
         <Route element={<Base />}>
           <Route path="/" element={<Home />} />
-          <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/login" element={<Login />} />
           <Route
-            path="/user"
+            path="/profile"
             element={
               <PrivateRoute>
-                <User />
+                <Profile />
               </PrivateRoute>
             }
           />

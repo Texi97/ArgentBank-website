@@ -32,7 +32,7 @@ function Navigation() {
       <div>
         {isAuthenticated ? (
           <>
-            <Link className="main-nav-item" to="/user">
+            <Link className="main-nav-item" to="/profile">
               <i className="fa fa-user-circle"></i>
               {auth.userName}
             </Link>
@@ -41,7 +41,7 @@ function Navigation() {
             </Link>
           </>
         ) : (
-          <Link className="main-nav-item" to="/sign-in">
+          <Link className="main-nav-item" to="/login">
             <i className="fa fa-user-circle"></i>
             Sign In
           </Link>

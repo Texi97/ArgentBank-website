@@ -4,7 +4,7 @@ import FormEdit from "../components/FormEdit";
 import { useDispatch, useSelector } from "react-redux";
 import { showEditUserName } from "../features/login/authSlice";
 
-function User() {
+function Profile() {
   const auth = useSelector((state) => state.auth);
   const showForm = useSelector((state) => state.auth.showForm);
   const dispatch = useDispatch();
@@ -37,7 +37,7 @@ function User() {
   return (
     <>
       {!auth.isAuthenticated ? (
-        <Navigate to="/sign-in" />
+        <Navigate to="/login" />
       ) : (
         <main className="main bg-dark">
           <div className="header">
@@ -68,4 +68,4 @@ function User() {
   );
 }
 
-export default User;
+export default Profile;
