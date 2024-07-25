@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { login, profile } from "../../features/login/authActions";
+import { login, profile } from "../features/login/authActions";
 import { useNavigate } from "react-router-dom";
 
 import React from "react";
-import "./Form.css";
 
 function Form() {
   const [username, setUsername] = useState("");

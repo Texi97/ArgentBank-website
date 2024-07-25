@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom";
-import TransactionCard from "../components/TransactionCard/TransactionCard";
-import FormEdit from "../components/FormEdit/FormEdit";
+import TransactionCard from "../components/TransactionCard";
+import FormEdit from "../components/FormEdit";
 import { useDispatch, useSelector } from "react-redux";
 import { showEditUserName } from "../features/login/authSlice";
 

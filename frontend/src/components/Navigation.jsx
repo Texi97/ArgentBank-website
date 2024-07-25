@@ -1,8 +1,7 @@
 import React from "react";
-import "./Navigation.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { logout, checkLocalStorageToken } from "../../features/login/authSlice";
+import { logout, checkLocalStorageToken } from "../features/login/authSlice";
 import { useEffect } from "react";
 
 function Navigation() {
@@ -26,6 +25,7 @@ function Navigation() {
           className="main-nav-logo-image"
           src="./argentBankLogo.webp"
           alt="Argent Bank Logo"
+          loading="lazy"
         />
         <h1 className="sr-only">Argent Bank</h1>
       </Link>

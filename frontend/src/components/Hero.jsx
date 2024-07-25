@@ -1,5 +1,4 @@
 import React from "react";
-import "./Hero.css";
 
 function Banner({ title, subtitles, text }) {
   return (

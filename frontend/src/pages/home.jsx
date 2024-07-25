@@ -1,6 +1,6 @@
 import React from "react";
-import Hero from "../components/Hero/Hero";
-import FeatureItem from "../components/FeatureItem/FeatureItem";
+import Hero from "../components/Hero";
+import FeatureItem from "../components/FeatureItem";
 
 const home = () => {
   return (
@@ -12,20 +12,20 @@ const home = () => {
       />
       <div className="features">
         <FeatureItem
-          src="./icon-chat.webp"
+          src="./icon-chat.svg"
           alt="Chat Icon"
           text="Need to talk to a representative? You can get in touch through our
         24/7 chat or through a phone call in less than 5 minutes."
           title="You are our #1 priority"
         />
         <FeatureItem
-          src="./icon-money.webp"
+          src="./icon-money.svg"
           alt="Money Icon"
           text="The more you save with us, the higher your interest rate will be!"
           title="More savings means higher rates"
         />
         <FeatureItem
-          src="./icon-security.webp"
+          src="./icon-security.svg"
           alt="Security Icon"
           text="We use top of the line encryption to make sure your data and money
         is always safe."

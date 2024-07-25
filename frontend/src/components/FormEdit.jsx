@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
-import { hideEditUserName } from "../../features/login/authSlice";
-import { edit } from "../../features/login/authActions";
+import { hideEditUserName } from "../features/login/authSlice";
+import { edit } from "../features/login/authActions";
 import { useEffect, useState } from "react";
-import "./FormEdit.css";
 
 function FormEdit() {
   const [username, setUsername] = useState("");
